@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: "Inter", sans-serif;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+header{
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.nav-bar{
+        font-family: "Merriweather", serif;
+    width: 1320px;
+    height: 600px;
+    /* margin-top: 3rem; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    background: linear-gradient(rgb(7, 2, 17),rgba(7, 2, 17, 0)),
+   url(./images/Banner\ Image.png) no-repeat;
+   background-position: center;
+   background-size: cover;
+   border-radius: 18px;
+}
+.nav-bar h3{
+    font-weight: 400;
+    font-size: 32px;
+    padding-top: 10rem;
+    /* text-align: center; */
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.nav-bar h1{
+    font-weight: 900;
+    font-size: 72px;
+    /* margin-top: 5rem; */
+    color: rgb(255, 255, 255);
+}
+
+.discount-section{
+    width: 803px;
+    height: 806px;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.discount-section h1{
+    width: 383px;
+    height: 107px;
+    font-weight: 700;
+    font-size: 88px;
+    margin: auto;
+    margin-top: 1rem;
+    color: rgb(255, 0, 0);
+}
+.discount-section p{
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 1rem;
+    color: rgb(255, 0, 0);
+}
+.discount-section h3{
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 1rem;
+    color: rgb(7, 2, 17);
+}
+
+
+
+.discount-section img{
+    width: 803px;
+    height: 500px;
+    /* text-align: center; */
+    align-items: center;
+    margin-top: 3rem;
+    /* border:  1px solid red; */
+}
