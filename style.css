@@ -14,6 +14,7 @@
 body{
 
     font-family: "Inter", sans-serif;
+    transition: .2s;
 }
 img{
     width: 100%;
@@ -95,4 +96,46 @@ header{
     align-items: center;
     margin-top: 3rem;
     /* border:  1px solid red; */
+}
+
+.welcome-party{
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(rgb(7, 2, 17),rgba(7, 2, 17, 0)),
+    url(./images/Vectorrr.png);
+    border-radius: 18px;
+}
+.welcome-party:hover{
+    transition: .2s;
+    background: linear-gradient(rgb(238, 92, 92),rgb(133, 133, 194));
+}
+.welcome-party-content{
+    padding-top: 136px;
+    padding-left: 126px;
+    text-align: left;
+    font-family: "Merriweather", serif;
+}
+.welcome-party h1{
+    width: 642px;
+    height: 176px;
+    font-weight: 900;
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+}
+.welcome-party p{
+    width: 697px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.btn{
+    width: 103px;
+    height: 24px;
+    background: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    border: 1px solid wheat;
+    color: rgb(255, 255, 255);
 }
