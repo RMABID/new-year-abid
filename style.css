@@ -270,4 +270,173 @@ span{
     position: absolute;
     left: 75%;
     bottom: 55%;
+    transform: .85s;
+}
+#image-2:hover{
+    transition: .2s;
+    background: linear-gradient(rgb(81, 72, 201),rgb(255, 255, 255));
+ 
+}
+
+
+.our-portfolio-section{
+    width: 1320px;
+    height: 1160px;
+    margin-top: 5rem;
+    /* border: 1px solid red; */
+    text-align: left;
+}
+.our-portfolio-section h5{
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(255, 0, 0);
+}
+.our-portfolio-section h1{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 48px;
+    margin-top: 1rem;
+    text-align: left;
+    color: rgb(7, 2, 17);
+}
+.our-portfolio-section p{
+    width: 890px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 1.5rem;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+
+.our-portfolio-card{
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  
+}
+
+.subscribe-card{
+    width: 1320px;
+    height: 616px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    margin-top: 5rem;
+    /* border: 1px solid red; */
+    
+}
+#card-image{
+    width: 131px;
+    height: 137px;
+    margin-top: 6rem;
+}
+.subscribe-card h1{
+    font-weight: 900;
+    font-size: 48px;
+    color: rgb(7, 2, 17);
+    margin-top: 1.5rem;
+}
+
+.subscribe-card p{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 1rem;
+}
+.email-btn{
+    width: 648px;
+    height: 72px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 50px;
+    margin-top: 2.5rem;
+}
+input{
+    width: 438px;
+    height: 70px;
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+}
+button{
+    width: 210px;
+    height: 72px;
+    background: rgb(255, 0, 0);
+    border-radius:  50px;
+    border: none;
+    color: wheat;
+}
+button:hover{
+    transition: .5s;
+}
+
+footer{
+
+    background: rgb(7, 2, 17);
+}
+section{
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    padding-top: 4rem;
+ 
+}
+a{
+    text-decoration: none;
+}
+
+.footer-icon{
+    width: 450px;
+    height: 80px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5rem;
+    font-size: 3rem;
+    margin-top: 3rem;
+    color: aliceblue;
+    border-top: 1px solid rgba(255, 255, 255, 0.15) ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15) ;
+}
+#call-icon{
+    width: 17px;
+    height: 17px;
+    align-items: center;
+    text-align: center;
+}
+
+.fa-facebook{
+    background-color: linear-gradient(rgb(29, 29, 27),rgba(29, 29, 27, 0.86),
+    rgba(29, 29, 27, 0.43), rgba(29, 29, 27, 0));
+    color: #2245e0;
+}
+.fa-linkedin{
+    color: rgb(11, 105, 199);
+}
+.fa-instagram{
+    color: rgb(255, 0, 0);
+}
+
+.footer-title{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+    color: white;
 }
