@@ -144,9 +144,10 @@ header{
     width: 1320px;
     height: 482px;
     margin-top: 5rem;
-    border-radius: 5px;
+    border-radius: 9px;
     background: linear-gradient(rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0));
     /* border: 1px solid red; */
+    /* box-shadow: 1px 0px 8px 2px rgba(7, 2, 17, 0.6); */
 }
 
 .party-place-content {
@@ -176,7 +177,7 @@ span{
     justify-content: space-around;
     align-items: center;
     border-radius: 18px;
-    box-shadow: 1px 1px 8px 2px;
+    /* box-shadow: 1px 1px 8px 2px; */
    
 
 
@@ -221,4 +222,52 @@ span{
     width: 140px;
     height: 140px;
     margin-top: 15px;
+}
+
+.holidays-discount-section{
+    width: 1320px;
+    height: 980px;
+    margin-top: 5rem;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.holidays-discount-content h5{
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(7, 2, 17);
+}
+
+.holidays-discount-content h1{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 72px;
+    margin-top: 1.5rem;
+    color: rgb(7, 2, 17);
+}
+.holidays-discount-content p{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 1rem;
+    color: rgba(7, 2, 17, 0.6);
+}
+.holidays-discount-image{
+    display: flex;
+    background: url(./images/Rectangle\ 2.png) no-repeat;
+    background-position: bottom;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 10rem;
+}
+#image-1{
+    width: 674px;
+    height: 577px;
+}
+#image-2{
+    width: 206px;
+    height: 206px;
+    position: absolute;
+    left: 75%;
+    bottom: 55%;
 }
